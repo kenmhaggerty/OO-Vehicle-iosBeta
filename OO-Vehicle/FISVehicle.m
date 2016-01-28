@@ -12,13 +12,19 @@
 
 - (instancetype)init {
     
-    self = [super init];
+    self = [self initWithWeight:0 topSpeed:0];
     return self;
 }
 
 - (instancetype)initWithWeight:(CGFloat)weight topSpeed:(CGFloat)topSpeed {
     
     self = [super init];
+    if (self) {
+        _weight = weight;
+        _topSpeed = topSpeed;
+        _currentSpeed = 0;
+        _currentDirection = 0;
+    }
     return self;
 }
 
