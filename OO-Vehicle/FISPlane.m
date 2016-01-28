@@ -29,7 +29,7 @@
 
 - (void)decreaseAltitude {
     
-    //
+    [self setCurrentAltitude:0];
 }
 
 @end
