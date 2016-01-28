@@ -25,6 +25,7 @@
 		727FB109191A74FA00D60E89 /* FISPlaneSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 727FB108191A74FA00D60E89 /* FISPlaneSpec.m */; };
 		7DA7B6801C5ACAC0009F8EAF /* FISVehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA7B67F1C5ACAC0009F8EAF /* FISVehicle.m */; };
 		7DA7B6831C5ACBBE009F8EAF /* FISCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA7B6821C5ACBBE009F8EAF /* FISCar.m */; };
+		7DA7B6861C5ACD11009F8EAF /* FISPlane.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DA7B6851C5ACD11009F8EAF /* FISPlane.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		7DA7B67F1C5ACAC0009F8EAF /* FISVehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISVehicle.m; sourceTree = "<group>"; };
 		7DA7B6811C5ACBBE009F8EAF /* FISCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISCar.h; sourceTree = "<group>"; };
 		7DA7B6821C5ACBBE009F8EAF /* FISCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCar.m; sourceTree = "<group>"; };
+		7DA7B6841C5ACD11009F8EAF /* FISPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISPlane.h; sourceTree = "<group>"; };
+		7DA7B6851C5ACD11009F8EAF /* FISPlane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISPlane.m; sourceTree = "<group>"; };
 		F7092F63AE37E7FC00639798 /* Pods-OO-VehicleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OO-VehicleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OO-VehicleTests/Pods-OO-VehicleTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -134,6 +137,8 @@
 				7DA7B67F1C5ACAC0009F8EAF /* FISVehicle.m */,
 				7DA7B6811C5ACBBE009F8EAF /* FISCar.h */,
 				7DA7B6821C5ACBBE009F8EAF /* FISCar.m */,
+				7DA7B6841C5ACD11009F8EAF /* FISPlane.h */,
+				7DA7B6851C5ACD11009F8EAF /* FISPlane.m */,
 				72786A821911A44B000E93A3 /* Supporting Files */,
 			);
 			path = "OO-Vehicle";
@@ -312,6 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DA7B6801C5ACAC0009F8EAF /* FISVehicle.m in Sources */,
+				7DA7B6861C5ACD11009F8EAF /* FISPlane.m in Sources */,
 				72786A881911A44B000E93A3 /* main.m in Sources */,
 				72786A8C1911A44B000E93A3 /* FISAppDelegate.m in Sources */,
 				7DA7B6831C5ACBBE009F8EAF /* FISCar.m in Sources */,
