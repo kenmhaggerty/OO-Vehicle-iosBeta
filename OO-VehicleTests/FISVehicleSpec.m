@@ -17,7 +17,7 @@ describe(@"FISVehicle", ^{
     __block FISVehicle *vehicle;
     
     beforeEach(^{
-        vehicle = [[FISVehicle alloc] initWithWeight:0.0f topSpeed:0.0f];
+        vehicle = [[FISVehicle alloc] initWithWeight:0.0f topSpeed:100.0f];
     });
     
     it(@"is a subclass of NSObject", ^{
