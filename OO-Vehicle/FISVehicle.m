@@ -35,7 +35,7 @@
 
 - (void)brake {
     
-    //
+    [self setCurrentSpeed:0];
 }
 
 - (void)turnLeft {
