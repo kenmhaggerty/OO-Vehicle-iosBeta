@@ -16,8 +16,8 @@
     if (self) {
         _currentAltitude = 0;
         _topAltitude = 30000;
-        _currentSpeed = 0;
-        _currentDirection = 0;
+        self.currentSpeed = 0;
+        self.currentDirection = 0;
     }
     return self;
 }

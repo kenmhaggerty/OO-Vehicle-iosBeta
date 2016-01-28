@@ -14,8 +14,8 @@
     
     self = [super initWithWeight:1270 topSpeed:88];
     if (self) {
-        _currentSpeed = 0;
-        _currentDirection = 0;
+        self.currentSpeed = 0;
+        self.currentDirection = 0;
         _cylinders = 4;
         _isAutomatic = YES;
     }
