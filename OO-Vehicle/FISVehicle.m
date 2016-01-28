@@ -30,7 +30,7 @@
 
 - (void)increaseSpeed {
     
-    //
+    [self setCurrentSpeed:self.topSpeed];
 }
 
 - (void)brake {
