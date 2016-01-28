@@ -40,7 +40,7 @@
 
 - (void)turnLeft {
     
-    //
+    [self setCurrentDirection:fmodf(self.currentDirection+270, 360)];
 }
 
 - (void)turnRight {
