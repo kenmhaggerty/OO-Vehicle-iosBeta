@@ -24,7 +24,7 @@
 
 - (void)increaseAltitude {
     
-    //
+    [self setCurrentAltitude:self.topAltitude];
 }
 
 - (void)decreaseAltitude {
