@@ -45,7 +45,7 @@
 
 - (void)turnRight {
     
-    //
+    [self setCurrentDirection:fmodf(self.currentDirection+90, 360)];
 }
 
 @end
